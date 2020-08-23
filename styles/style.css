@@ -1,0 +1,167 @@
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #FD4659;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+img:nth-child(1) {
+    visibility: hidden;
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     animation: papa 1s ease-in-out 0s 1 forwards;
+    
+    
+ }
+img:nth-child(2) {
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+   position: absolute;
+    animation: mama 1s ease-in-out 1s 1 forwards;
+   
+   
+}
+
+img:nth-child(3){
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation: tio 1s ease-in-out 2s 1 forwards;
+   
+}
+img:nth-child(4){
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation: abuela 1s ease-in-out 3s 1 forwards;
+   
+}
+img:nth-child(5){
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation: primo 1s ease-in-out 4s 1 forwards;
+   
+}
+.po {
+    opacity: 0;
+    margin-top: 386px;
+    animation: prima 1s ease-in-out 0s 4;
+}
+.pi {
+   
+    opacity: 0;
+    margin-top: 386px;
+    animation: tia 1s ease-in-out 4s 1 forwards;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+@keyframes papa  {
+    0% {visibility: visible;
+        transform: translatex(600px)}
+    50%{transform: translatex(0px)}
+    60%{transform: translatey(50px);
+        width: 200px;
+        height: 200px;}
+    70%{transform: translatex(0px);
+        width: 160px;
+        height: 160px;}
+    100%{transform: translatex(-600px);
+        width: 160px;
+        height: 160px;
+        }
+        
+        
+    }
+    
+
+ @keyframes mama  {
+    0% {visibility: visible;
+        transform: translatex(700px)}
+    50%{transform: translatex(0px)}
+    60%{transform: translatey(50px);
+        width: 200px;
+        height: 200px;}
+    70%{transform: translatex(0px);
+        width: 160px;
+        height: 160px;}
+    100%{transform: translatex(-600px);
+        width: 160px;
+        height: 160px;
+        }
+      
+        
+    }
+    
+    @keyframes tio {
+        0% {visibility: visible;
+            transform: translatex(600px)}
+        50%{transform: translatex(0px)}
+        60%{transform: translatey(50px);
+            width: 200px;
+            height: 200px;}
+        70%{transform: translatex(0px);
+            width: 160px;
+            height: 160px;}
+        100%{transform: translatex(-600px);
+            width: 160px;
+            height: 160px;
+            }
+            
+            
+        }
+        
+        @keyframes abuela {
+            0% {visibility: visible;
+                transform: translatex(600px)}
+            50%{transform: translatex(0px)}
+            60%{transform: translatey(50px);
+                width: 200px;
+                height: 200px;}
+            70%{transform: translatex(0px);
+                width: 160px;
+                height: 160px;}
+            100%{transform: translatex(-600px);
+                width: 160px;
+                height: 160px;
+                }
+                
+                
+            }
+            @keyframes primo  {
+                0% {visibility: visible;
+                    transform: translatey(-600px)}
+                50%{transform: translatey(50px)}
+                60%{transform: translatey(0px)}
+                80%{transform: translatey(50px)}
+                90%{transform: translate(0px)}
+                100%{visibility: visible;}
+
+                }
+                @keyframes prima  {
+                    from {opacity: 0;}
+                    to {opacity:1}
+                    }
+                    @keyframes tia  {
+                        0% {opacity: 0;
+                            transform: translatex(-40px)
+                            }
+                        100%{opacity: 1;
+                            transform: translatex(-40px)}
+                    }
